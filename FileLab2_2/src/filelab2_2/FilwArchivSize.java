@@ -27,7 +27,7 @@ public class FilwArchivSize {
     if(imagesize != null && ! imagesize.equals("")) {  
         this.imagesize = imagesize;
     } else {
-           throw new IllegalArgumentException("Поле размера изображения не должно быть пустым!");
+           throw new IllegalArgumentException("Поле не должно быть пустым");
         }
     }
     

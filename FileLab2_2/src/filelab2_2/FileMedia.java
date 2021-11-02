@@ -36,7 +36,7 @@ public class FileMedia extends File {
         if(format != null && ! format.equals("")) {  
         this.format = format;
     } else {
-           throw new IllegalArgumentException("Поле не должно быть пустым!");
+           throw new IllegalArgumentException("Поле не должно быть пустым");
         }
     }
     
@@ -44,7 +44,7 @@ public class FileMedia extends File {
         if(desc != null && ! desc.equals("")) {  
         this.desc = desc;
     } else {
-           throw new IllegalArgumentException("Поле не должно быть пустым!");
+           throw new IllegalArgumentException("Поле не должно быть пустым");
         }
     }
     
@@ -52,7 +52,7 @@ public class FileMedia extends File {
          if(duration != null && ! duration.equals("")) {  
         this.duration = duration;
     } else {
-           throw new IllegalArgumentException("Поле не должно быть пустым!");
+           throw new IllegalArgumentException("Поле не должно быть пустым");
         }
     }
 

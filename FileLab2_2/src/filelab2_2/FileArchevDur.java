@@ -26,7 +26,7 @@ public class FileArchevDur {
     if(duration != null && ! duration.equals("")) {  
         this.duration = duration;
     } else {
-           throw new IllegalArgumentException("Поле длительность не должно быть пустым!");
+           throw new IllegalArgumentException("Поле длительность не должно быть пустым");
         }
     }
 }

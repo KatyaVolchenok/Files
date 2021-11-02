@@ -31,7 +31,7 @@ public class FileDoc extends File {
         if(format != null && ! format.equals("")) {  
         this.format = format;
     } else {
-           throw new IllegalArgumentException("Поле не должно быть пустым!");
+           throw new IllegalArgumentException("Поле не должно быть пустым");
         }
     }
     public void setNumberPage(int numberPage) {
