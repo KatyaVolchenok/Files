@@ -22,7 +22,7 @@ public class FileVideo extends FileMedia {
     
     public void setPicsize(String picsize) {
         if(picsize == null){
-            throw new NullPointerException("Поле размер пустое");
+            throw new NullPointerException("Поле размер пустое.");
         }else {
            this.picsize= picsize;  
         }
