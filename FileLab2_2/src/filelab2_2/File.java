@@ -31,7 +31,7 @@ public abstract class File {
         if(name != null && ! name.equals("")) {  
         this.name = name;
     } else {
-           throw new IllegalArgumentException("Поле не должно быть пустым!");
+           throw new IllegalArgumentException("Поле не должно быть пустым");
         }
     }
     public void setSize(int size) {
